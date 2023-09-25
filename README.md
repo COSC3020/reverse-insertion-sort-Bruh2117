@@ -37,3 +37,5 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+The average case of insert sort would be where the first i elements in the array are sorted and the (i + 1)st element, when sorted, would lie in the middle of the array. In terms of runtime, the average-case time complexity ($\Theta$) would be $\Theta(\frac{n^2}{2})$ since it would take $n$ time to go through the sorted i elements until we reach the (i + 1)st element, then approximately $\frac{n}{2}$ time to then sort it to its proper place at around the middle of the array, which together form the result. 
